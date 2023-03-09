@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(bacground.jpg);
+    background-color: rgba(0, 0, 0, 0.7);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+h1{
+    font-size: 170%;
+    color: blueviolet;
+}
+/* h2{
+    font-size: 110%;
+    text-align: left;
+    color: black;
+} */
+h3{
+    font-size: 110%;
+    text-align: left;
+    color: black;
+}
+
+   
+.imgs{
+    display: flex;
+    justify-content: center;
+   
+
+
+}
+.img{
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+
+}
+
+p{
+    font-size: 140%;
+}
+.h2{
+    text-align: center;
+}
+
+
+footer {
+    display: flex;
+    background-color: rgb(196, 41, 183);
+    color: rgb(0, 0, 0);
+    clear: both;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+    
+    
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0 10px 30px -10px rgb(62, 62, 62);
+    padding: 20px;
+
+}
+.title{
+margin: 10px 0;
+font-size: 20px;
+}
+.text{
+    font-size: 15px;
+    font-style: italic;
+}
+.box{
+    margin: 0 50px;
+    
+}
